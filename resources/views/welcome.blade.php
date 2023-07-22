@@ -39,8 +39,8 @@
                             - Abu Bakar</div>
                             <span>&nbsp &nbsp</span>
                         <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
-                            <a class="btn btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" style="background-color: #FFC26F"  href="#">Resume</a>
-                            <a class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" href="#">Projects</a>
+                            <a class="btn btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" style="background-color: #FFC26F"  href="login">Login</a>
+                            <a class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" href="#">Register</a>
                         </div>
                     </div>
                 </div>
