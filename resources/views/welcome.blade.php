@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <main class="flex-shrink-0">
+<main class="flex-shrink-0">
     <nav class="navbar navbar-expand-lg py-3" style="background-color: #FFC26F ">
         <div class="container px-5" >
             <a class="navbar-brand" href="#"><span class="fw-bolder">1001 LIBRARY</span></a>
@@ -47,7 +47,7 @@
                 <div class="col-xxl-7">
                     <!-- Header profile picture-->
                     <div class="d-flex justify-content-center mt-5 mt-xxl-0">
-                        <div class="profile bg-gradient-primary-to-secondary">
+                        <div class="profile bg-gradient-primary-to-secondarygi">
                             <img class="profile-img" style="margin-left: 340px" src="{{ Vite::asset('resources/images/logorb2.png') }}" alt="..." />
 
                         </div>
