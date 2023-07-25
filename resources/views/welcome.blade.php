@@ -11,7 +11,7 @@
 </head>
 
 <body>
-<main class="flex-shrink-0">
+    <main class="flex-shrink-0">
     <nav class="navbar navbar-expand-lg py-3" style="background-color: #FFC26F ">
         <div class="container px-5" >
             <a class="navbar-brand" href="#"><span class="fw-bolder">1001 LIBRARY</span></a>
@@ -40,7 +40,7 @@
                             <span>&nbsp &nbsp</span>
                         <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
                             <a class="btn btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" style="background-color: #FFC26F"  href="login">Login</a>
-                            <a class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" href="#">Register</a>
+                            <a class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" href="register">Register</a>
                         </div>
                     </div>
                 </div>
