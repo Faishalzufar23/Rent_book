@@ -22,7 +22,8 @@
                 <div class="col-xxl-8">
                     <div class="text-center my-5">
                         <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">About Us</span></h2>
-                        <h4>One Thousan One Library adalah sebuah website untuk memfasilitasi antara user dan pihak perpustakaan agar lebih mudah dalam melakukan proses peminjaman dan pengembalian buku.</h4>
+                        <h4>One Thousan One Library adalah sebuah website untuk memfasilitasi antara user dan pihak perpustakaan agar lebih mudah dalam melakukan proses peminjaman dan pengembalian buku,
+                             Selain itu tujuan dibuatnya tempat penyewaan buku perpustakaan adalah untuk membantu masyarakat dalam segala umur dengan memberikan kesempatan dengan dorongan melalui jasa pelayanan perpustakaan agar mereka dapat mendidik dirinya sendiri secara berkesinambungan</h4>
                         <p class="lead fw-light mb-4">Our Goals</p>
                         <p class="text-muted">Website perpustakaan memungkinkan pengguna untuk melakukan peminjaman buku dan sumber daya lainnya secara online.</p>
                         <div class="d-flex justify-content-center fs-2 gap-4">

@@ -51,10 +51,11 @@
             <div class="row gx-5 justify-content-center">
                 <div class="col-xxl-8">
                     <div class="text-center my-5">
-                        <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">About Us</span></h2>
-                        <h4>One Thousan One Library adalah sebuah website untuk memfasilitasi antara user dan pihak perpustakaan agar lebih mudah dalam melakukan proses peminjaman dan pengembalian buku.</h4>
-                        <p class="lead fw-light mb-4">Our Goals</p>
-                        <p class="text-muted">Website perpustakaan memungkinkan pengguna untuk melakukan peminjaman buku dan sumber daya lainnya secara online.</p>
+                        <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">Visi</span></h2>
+                        <h5>"Menjadi tempat penyewaan buku terkemuka yang menginspirasi dan membawa kebahagiaan kepada para pembaca dari berbagai lapisan masyarakat."</h5>
+                        <h2 class="lead fw-light mb-4">Misi</h2>
+                        <h5 class="text-muted">Memberikan akses mudah dan luas kepada ribuan buku berkualitas untuk semua kalangan, dari berbagai genre dan bidang pengetahuan.
+                            Menyediakan layanan penyewaan yang ramah pengguna dan efisien dengan pilihan penyewaan jangka pendek maupun jangka panjang.</h5 >
                         <div class="d-flex justify-content-center fs-2 gap-4">
                             <a class="text-gradient" href="#!"><i class="bi bi-twitter"></i></a>
                             <a class="text-gradient" href="#!"><i class="bi bi-linkedin"></i></a>
