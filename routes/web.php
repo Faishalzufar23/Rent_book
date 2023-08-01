@@ -32,3 +32,7 @@ Route::get('about', function () {
 Route::get('catalog', function () {
     return view('catalog');
 });
+
+Route::get('admin', function () {
+    return view('admin');
+});
