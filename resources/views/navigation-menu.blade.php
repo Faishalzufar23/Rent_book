@@ -1,6 +1,6 @@
-<nav x-data="{ open: false }" class="bg-white border-b border-gray-100">
+<nav x-data="{ open: false }" style="background-color: #FFC26F">
     <!-- Primary Navigation Menu -->
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style="background-color: #FFC26F">
         <div class="flex justify-between h-16">
             <div class="flex">
                 <!-- Logo -->
@@ -11,18 +11,18 @@
                 </div>
 
                 <!-- Navigation Links -->
-                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                    <x-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex" >
+                    <x-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')" style="font-color: black" >
                         {{ __('Dashboard') }}
                     </x-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                    <x-nav-link href="{{ route('about') }}" :active="request()->routeIs('dashboard')">
+                    <x-nav-link href="{{ route('about') }}" :active="request()->routeIs('dashboard')" style="font-color: black" >
                         {{ __('About') }}
                     </x-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                    <x-nav-link href="{{ route('catalog') }}" :active="request()->routeIs('dashboard')">
+                    <x-nav-link href="{{ route('catalog') }}" :active="request()->routeIs('dashboard')" style="font-color: black" >
                         {{ __('Catalog') }}
                     </x-nav-link>
                 </div>
@@ -82,7 +82,7 @@
                 @endif
 
                 <!-- Settings Dropdown -->
-                <div class="ml-3 relative">
+                <div class="ml-3 relative" style="background-color: #FFC26F">
                     <x-dropdown align="right" width="48">
                         <x-slot name="trigger">
                             @if (Laravel\Jetstream\Jetstream::managesProfilePhotos())
@@ -118,7 +118,7 @@
                                 </x-dropdown-link>
                             @endif
 
-                            <div class="border-t border-gray-200"></div>
+                            <div class="border-t" ></div>
 
                             <!-- Authentication -->
                             <form method="POST" action="{{ route('logout') }}" x-data>
