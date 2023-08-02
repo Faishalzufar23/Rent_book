@@ -6,7 +6,7 @@
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder" style="color:#884A39">
                 <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="about">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Catalog</a></li>
+                <li class="nav-item"><a class="nav-link" href="catalogbook">Catalog</a></li>
             </ul>
         </div>
     </div>

@@ -29,8 +29,8 @@ Route::get('about', function () {
     return view('about');
 });
 
-Route::get('catalog', function () {
-    return view('catalog');
+Route::get('catalogbook', function () {
+    return view('catalogbook');
 });
 
 Route::get('admin', function () {
