@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<x-app-layout>
+
 <html lang="en">
 
 <head>
@@ -11,8 +13,10 @@
 </head>
 
 <body>
-<main class="flex-shrink-0">
-@include('layout.nav')
+
+
+    <main class="flex-shrink-0">
+
 
 
 
@@ -36,10 +40,11 @@
         </div>
     </section>
 </main>
-@include('layout.footer')
+
 
 
     @vite('resources/js/app.js')
 </body>
 
 </html>
+</x-app-layout>

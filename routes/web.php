@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CatalogController;
+use App\Http\Controllers\AboutController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,22 +19,19 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('login', function () {
-    return view('login');
+Route::middleware([
+    'auth:sanctum',
+    config('jetstream.auth_session'),
+    'verified'
+])->group(function () {
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
 });
 
-Route::get('register', function () {
-    return view('register');
-});
 
-Route::get('about', function () {
-    return view('about');
-});
+Route::get('redirects', 'App\Http\Controllers\HomeController@index');
 
-Route::get('catalogbook', function () {
-    return view('catalogbook');
-});
+Route::get('/catalog', [CatalogController::class, 'index'])->name('catalog');
+Route::get('/about', [AboutController::class, 'index'])->name('about');
 
-Route::get('admin', function () {
-    return view('admin');
-});
