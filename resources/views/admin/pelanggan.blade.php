@@ -56,15 +56,19 @@
         </thead>
         <tbody>
             <!-- Tambahkan data pelanggan di sini -->
+            @foreach ($users as $user)
+
+
             <tr>
-                <td>Pelanggan 1</td>
-                <td>pelanggan1@email.com</td>
-                <td>08123456789</td>
+                <td>{{$user->name}}</td>
+                <td>{{$user->email}}</td>
+                <td>..</td>
                 <td>
                     <a href="#" class="btn btn-primary btn-sm">Edit</a>
                     <a href="#" class="btn btn-danger btn-sm">Hapus</a>
                 </td>
             </tr>
+            @endforeach
             <!-- Contoh data pelanggan lainnya -->
         </tbody>
     </table>

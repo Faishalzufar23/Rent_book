@@ -57,16 +57,18 @@
         </thead>
         <tbody>
             <!-- Tambahkan data produk di sini -->
+            @foreach ($bukus as $buku)
             <tr>
-                <td>Buku 1</td>
-                <td>Penulis 1</td>
-                <td>10.000</td>
-                <td>20</td>
+                <td>{{ $buku->judul_buku }}</td>
+                <td>{{ $buku->author_buku }}</td>
+                <td>{{ $buku->harga_buku }}</td>
+                <td>...</td>
                 <td>
                     <a href="#" class="btn btn-primary btn-sm">Edit</a>
                     <a href="#" class="btn btn-danger btn-sm">Hapus</a>
                 </td>
             </tr>
+        @endforeach
             <!-- Contoh data produk lainnya -->
         </tbody>
     </table>

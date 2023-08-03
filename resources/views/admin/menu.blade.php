@@ -51,7 +51,7 @@
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title">Total Buku</h5>
-                    <p class="card-text">100</p>
+                    <p class="card-text">{{ $totalBuku }}</p>
                 </div>
             </div>
         </div>
@@ -59,7 +59,7 @@
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title">Pelanggan Terdaftar</h5>
-                    <p class="card-text">50</p>
+                    <p class="card-text">{{ $totalUsers }}</p>
                 </div>
             </div>
         </div>

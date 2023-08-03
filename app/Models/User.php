@@ -27,6 +27,7 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'buku_id',
     ];
 
     /**
@@ -58,4 +59,9 @@ class User extends Authenticatable
     protected $appends = [
         'profile_photo_url',
     ];
+    public function buku()
+    {
+        return $this->belongsTo(Buku::class, 'buku_id');
+    }
 }
+

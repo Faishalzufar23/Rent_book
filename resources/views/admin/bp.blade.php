@@ -57,23 +57,24 @@
         </thead>
         <tbody>
             <!-- Tambahkan data pelanggan di sini -->
-            <tr>
-                <td>Pelanggan 1</td>
-                <td>pelanggan1@email.com</td>
-                <td>Harry potter 1</td>
-                <td>Gambar.png</td>
-                <td>
-                    <a href="#" class="btn btn-primary btn-sm">Edit</a>
-                    <a href="#" class="btn btn-danger btn-sm">Hapus</a>
-                </td>
-            </tr>
-            <!-- Contoh data pelanggan lainnya -->
+            @foreach ($users as $user)
+                <tr>
+                        <td>{{ $user->name }}</td>
+                        <td>{{ $user->email }}</td>
+                        <td> {{ optional($user->buku)->judul_buku}}</td>
+                        <td>Gambar.png</td>
+                    <td>
+                        <a href="#" class="btn btn-primary btn-sm">Edit</a>
+                        <a href="#" class="btn btn-danger btn-sm">Hapus</a>
+                    </td>
+                </tr>
+            @endforeach
         </tbody>
     </table>
 
-
     <!-- Tambahkan panel keamanan dan sistem notifikasi di sini -->
 </div>
+
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
