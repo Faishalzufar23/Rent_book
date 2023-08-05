@@ -8,6 +8,7 @@ use App\Http\Controllers\BookController;
 use App\Http\Controllers\PelangganController;
 use App\Http\Controllers\MenuController;
 use App\Http\Controllers\BuktiController;
+use App\Http\Controllers\PaypageController;
 
 use GuzzleHttp\Middleware;
 
@@ -41,6 +42,9 @@ Route::get('redirects', 'App\Http\Controllers\HomeController@index');
 
 Route::get('/catalog', [CatalogController::class, 'index'])->middleware('auth')->name('catalog');
 Route::get('/about', [AboutController::class, 'index'])->middleware('auth')->name('about');
+
+Route::get('/paypage', [PaypageController::class, 'index'])->middleware('auth')->name('paypage');
+
 
 Route::get('/redirects', [AdminController::class, 'index'])->middleware('auth')->name('redirects');
 Route::get('/redirects', [MenuController::class, 'index'])->middleware('auth')->name('redirects');
