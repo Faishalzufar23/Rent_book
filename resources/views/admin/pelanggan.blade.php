@@ -39,7 +39,7 @@
     <a href="{{ route('pelanggan') }}">Pelanggan</a>
     <a href="{{ route('bp') }}">Bukti Pembayaran</a>
     <a href="#">Notifikasi</a>
-    <a href="#" class="mt-5">Logout</a>
+    <a href="{{ route('admin.logout') }}">Logout</a>
 </div>
 
 <div class="content">

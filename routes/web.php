@@ -51,6 +51,10 @@ Route::get('/redirects', [MenuController::class, 'index'])->middleware('auth')->
 
 Route::get('/book', [AdminController::class, 'book'])->middleware('auth')->name('book');
 Route::get('/book', [BookController::class, 'index'])->middleware('auth')->name('book');
+Route::get('/admin/create', [BookController::class, 'create'])->name('admin.create');
+Route::post('/admin/create', [BookController::class, 'store'])->name('admin.store');
+
+Route::delete('/admin/delete/{buku}', [BookController::class, 'destroy'])->name('book.destroy');
 
 Route::get('/pelanggan', [AdminController::class, 'pelanggan'])->middleware('auth')->name('pelanggan');
 Route::get('/pelanggan', [PelangganController::class, 'index'])->middleware('auth')->name('pelanggan');

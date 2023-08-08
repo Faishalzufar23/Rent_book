@@ -7,6 +7,7 @@
                 <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="about">About</a></li>
                 <li class="nav-item"><a class="nav-link" href="catalogbook">Catalog</a></li>
+                <li class="nav-item"><a class="nav-link" href="paypage">Pembayaran</a></li>
             </ul>
         </div>
     </div>
