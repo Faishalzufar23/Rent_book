@@ -39,7 +39,7 @@
     <a href="{{ route('pelanggan') }}">Pelanggan</a>
     <a href="{{ route('bp') }}">Bukti Pembayaran</a>
     <a href="#">Notifikasi</a>
-    <a href="#" class="mt-5">Logout</a>
+    <a href="{{ route('admin.logout') }}">Logout</a>
 </div>
 
 <div class="content">
@@ -64,6 +64,7 @@
                 <td>{{ $buku->harga_buku }}</td>
                 <td>...</td>
                 <td>
+                    <a href="#" class="btn btn-success btn-sm">Input</a>
                     <a href="#" class="btn btn-primary btn-sm">Edit</a>
                     <a href="#" class="btn btn-danger btn-sm">Hapus</a>
                 </td>
